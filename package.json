@@ -40,10 +40,12 @@
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-export-application-global": "^1.0.5",
     "ember-load-initializers": "^0.5.1",
+    "ember-maybe-import-regenerator": "^0.1.4",
     "ember-redux": "1.10.0",
     "ember-resolver": "^2.0.3",
     "loader.js": "^4.0.10",
     "redux": "3.6.0",
+    "redux-saga": "^0.14.0",
     "redux-thunk": "2.1.0"
   },
   "engines": {

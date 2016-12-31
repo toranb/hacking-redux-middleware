@@ -10,7 +10,7 @@ const stateToComputed = (state) => {
 
 const dispatchToActions = (dispatch) => {
   return {
-    more: () => dispatch({type: 'more'})
+    more: () => dispatch({type: 'MOAR'})
   };
 };
 

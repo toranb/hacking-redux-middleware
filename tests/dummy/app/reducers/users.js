@@ -8,10 +8,10 @@ const initialState = {
 };
 
 export default ((state, action) => {
-  if (action.type === 'more') {
+  if (action.type === 'MORE') {
     id = id + 1;
     return Object.assign({}, state, {
-      all: state.all.concat({id: id, name: 'more'})
+      all: state.all.concat({id: id, name: 'MORE'})
     });
   }
   return state || initialState;
