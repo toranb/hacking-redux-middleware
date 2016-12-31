@@ -1,0 +1,6 @@
+{{#ummm-what as |users more|}}
+  {{#each users as |user|}}
+    <h3>{{user.name}}</h3>
+    <button onclick={{action more}}>more</button>
+  {{/each}}
+{{/ummm-what}}
