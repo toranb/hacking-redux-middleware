@@ -2,8 +2,8 @@ var id = 2;
 
 const initialState = {
   all: [
-    {id: 1, name: 'one'},
-    {id: 2, name: 'two'}
+    {id: 1, name: 'one1'},
+    {id: 2, name: 'two2'}
   ]
 };
 

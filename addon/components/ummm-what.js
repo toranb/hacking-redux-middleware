@@ -15,9 +15,9 @@ const dispatchToActions = (dispatch) => {
 };
 
 const MyComponent = Ember.Component.extend({
-  layout: hbs`
+  layout: hbs(`
     {{yield users (action "more")}}
-  `
+  `)
 });
 
 export default connect(stateToComputed, dispatchToActions)(MyComponent);
