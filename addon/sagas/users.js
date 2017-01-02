@@ -8,5 +8,5 @@ function* moreAsync() {
 }
 
 export default function* moarAsync() {
-    yield* takeEvery('MOAR', moreAsync);
+    yield takeEvery('MOAR', moreAsync);
 }
